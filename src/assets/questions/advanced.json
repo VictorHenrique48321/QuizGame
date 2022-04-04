@@ -1,0 +1,60 @@
+[
+  {
+    "questionStatement": "Quantos olhos jax possui",
+    "correctAnswer": "Seis",
+    "wrongAnswers": ["Cinco","Sete","Quatro"]
+  },
+  {
+    "questionStatement": "Qual é o nome do Aspecto do Crepúsculo",
+    "correctAnswer": "Zoe",
+    "wrongAnswers": ["Shen","Diana","Le Blanc"]
+  },
+  {
+    "questionStatement": "Quema é a antiga rainha de Freljord",
+    "correctAnswer": "Avarosa",
+    "wrongAnswers": ["Serylda","Lissandra","Ashe"]
+  },
+
+  {
+    "questionStatement": "Qual o deus de Illaoi",
+    "correctAnswer": "Nagakabouros",
+    "wrongAnswers": ["Kagami","Armodillo","Malmortius"]
+  },
+  {
+    "questionStatement": "Quem criou o arco de Ashe",
+    "correctAnswer": "Avarosa",
+    "wrongAnswers": ["Ornn","Lissandra","Jayce"]
+  },
+
+  {
+    "questionStatement": "Nome do campeão lançado no início da Season 6",
+    "correctAnswer": "Jhin",
+    "wrongAnswers": ["Aurelion","Taliyah","Kled"]
+  },
+  {
+    "questionStatement": "Quais os seres mais antigos de LOL",
+    "correctAnswer": "Lissandra e Aatrox",
+    "wrongAnswers": ["Azir e Xerath","Patheon e Aatrox","Anivia e Gnar"]
+  },
+  {
+    "questionStatement": "O que significa MIA",
+    "correctAnswer": "Missing in action",
+    "wrongAnswers": ["Missed in action","Missing in abort","Missed including Atention"]
+  },
+  {
+    "questionStatement": "Quem é o carrasco de Noxus",
+    "correctAnswer": "Draven",
+    "wrongAnswers": ["Darius","Talon","Katarina"]
+  },
+  {
+    "questionStatement": "Primeiro demaciano a descobrir os poderes de Lux",
+    "correctAnswer": "Galio ",
+    "wrongAnswers": ["Sylas","Garen","Fiora"]
+  },
+
+  {
+    "questionStatement": "Quem fez os oculus de Master Yi",
+    "correctAnswer": "Heimerdinger",
+    "wrongAnswers": ["Ornn","Jayce","Wukong"]
+  }
+]

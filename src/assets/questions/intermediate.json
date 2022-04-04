@@ -1,0 +1,60 @@
+[
+  {
+    "questionStatement": "Time que venceu o mundial em 2017",
+    "correctAnswer": "Samsung Galaxy",
+    "wrongAnswers": ["SKT T1","Dire Wolves","Unicorns of Love"]
+  },
+  {
+    "questionStatement": "Onde foi criada nidalee",
+    "correctAnswer": "Selva",
+    "wrongAnswers": ["Noxus","Freljord","Laboratório Hextec"]
+  },
+  {
+    "questionStatement": "Primeiro jogador ao alcançar 1000 abates",
+    "correctAnswer": "Faker",
+    "wrongAnswers": ["Kami","Rekkles","Kira"]
+  },
+
+  {
+    "questionStatement": "Quem é o melhor amigo de Jax",
+    "correctAnswer": "Gragas",
+    "wrongAnswers": ["Olaf","Shen","Fiora"]
+  },
+  {
+    "questionStatement": "Qual o nome de pai de Annie",
+    "correctAnswer": "Gregori",
+    "wrongAnswers": ["Geoffrey","Gregor","Timothy"]
+  },
+
+  {
+    "questionStatement": "Quem é o irmaõ de Irelia",
+    "correctAnswer": "Zelos",
+    "wrongAnswers": ["Lito","Xan","Ren"]
+  },
+  {
+    "questionStatement": "Fiora pertence a qual casa de Demacia",
+    "correctAnswer": "Laurent",
+    "wrongAnswers": ["Lightshield","Spiritmight","Buvelle"]
+  },
+  {
+    "questionStatement": "Qual objetivo de Poppy",
+    "correctAnswer": "Encontrar o heroí de Demacia",
+    "wrongAnswers": ["Defender Demacia","Achar Orlon, o dono do martelo","Se tornar uma meste do martelo"]
+  },
+  {
+    "questionStatement": "Shyvana foi responsável por salvar",
+    "correctAnswer": "Jarvan IV",
+    "wrongAnswers": ["Garen","Fiora","Poppy"]
+  },
+  {
+    "questionStatement": "Como se chama o instrumento de Sona",
+    "correctAnswer": "Etwahl ",
+    "wrongAnswers": ["Ethahl","Etnahl","Etyahl"]
+  },
+
+  {
+    "questionStatement": "Quantos campeões LOL tinha quando lançou",
+    "correctAnswer": "40",
+    "wrongAnswers": ["45","35","30"]
+  }
+]

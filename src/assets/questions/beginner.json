@@ -1,0 +1,60 @@
+[
+  {
+    "questionStatement": "Renekton é irmão de",
+    "correctAnswer": "Nasus",
+    "wrongAnswers": ["Xerath","Azir","Rammus"]
+  },
+  {
+    "questionStatement": "Qual é a cidade de Fizz",
+    "correctAnswer": "Bandópolis",
+    "wrongAnswers": ["Aguás de Sentina","Demacia","Ionia"]
+  },
+  {
+    "questionStatement": "Na lora Aatrox é um",
+    "correctAnswer": "Darkin",
+    "wrongAnswers": ["Ascendente","Anjo Caído","Ninja"]
+  },
+
+  {
+    "questionStatement": "Como se chama a moeda que Gangplank usa em jogo",
+    "correctAnswer": "Serpentes de Prata",
+    "wrongAnswers": ["Trancos","Moedas de prata","Serpentes de Sentina"]
+  },
+  {
+    "questionStatement": "Qual foi a primeira skin projeto",
+    "correctAnswer": "Yasuo",
+    "wrongAnswers": ["Zed","Ashe","Leona"]
+  },
+
+  {
+    "questionStatement": "Qual o nome do animal do Kled",
+    "correctAnswer": "Skaarl",
+    "wrongAnswers": ["Skarl","Scaarl","Skcaar"]
+  },
+  {
+    "questionStatement": "Quem é considerado xerife de Piltover",
+    "correctAnswer": "Caitlyn",
+    "wrongAnswers": ["Vi","Camille","Jayce"]
+  },
+  {
+    "questionStatement": "O que significa MIA",
+    "correctAnswer": "Missing in action",
+    "wrongAnswers": ["Missed in action","Missing in abort","Missed including Atention"]
+  },
+  {
+    "questionStatement": "Campeão mais de nerfado da historia",
+    "correctAnswer": "Kassadin",
+    "wrongAnswers": ["Irelia","Draven","Yasuo"]
+  },
+  {
+    "questionStatement": "Qual o verdadeiro nome de Graves",
+    "correctAnswer": "Malcolm ",
+    "wrongAnswers": ["Malcon","Melcoln","Maicon"]
+  },
+
+  {
+    "questionStatement": "Qual o nome da ultimate de Leona",
+    "correctAnswer": "Labareda Solar",
+    "wrongAnswers": ["Eclipse","Luz Solar","Raio de fogo"]
+  }
+]

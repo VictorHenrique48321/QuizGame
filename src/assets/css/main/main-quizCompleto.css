@@ -1,0 +1,53 @@
+.main-quizCompleto {
+  background-color: rgb(1, 74, 129);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.main-scoreLayout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 450px;
+  width: 550px;
+  border-radius: 50px;
+  background-color: rgb(30, 38, 62);
+}
+
+.main-congratulations{
+  margin: 1rem 0;
+  font-size: 28px;
+  color: white;
+  height: 33%;
+}
+
+.main-score {
+  margin: 1rem 0;
+  font-size: 24px;
+  color: white;
+  height: 33%;
+}
+
+.main-options {
+  display: flex;
+  height: 33%;
+}
+
+.main-nextOrRetry {
+  margin: 1rem;
+  color: white;
+  font-size: 20px;
+  border: 2px solid rgb(41, 104, 168);
+  width: 150px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  text-transform: capitalize;
+}
