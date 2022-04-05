@@ -51,10 +51,14 @@
     "correctAnswer": "Galio ",
     "wrongAnswers": ["Sylas","Garen","Fiora"]
   },
-
   {
     "questionStatement": "Quem fez os oculus de Master Yi",
     "correctAnswer": "Heimerdinger",
     "wrongAnswers": ["Ornn","Jayce","Wukong"]
+  },
+  {
+    "questionStatement": "Quem desenvolve League of Legends",
+    "correctAnswer": "Riot Game",
+    "wrongAnswers": ["Capcom","Rockstar","Ubisoft"]
   }
 ]

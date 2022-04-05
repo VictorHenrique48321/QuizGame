@@ -51,4 +51,5 @@ main {
   width: 200px;
   height: 60px;
   text-align: center;
+  cursor: pointer;
 }

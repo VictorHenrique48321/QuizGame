@@ -51,10 +51,14 @@
     "correctAnswer": "Etwahl ",
     "wrongAnswers": ["Ethahl","Etnahl","Etyahl"]
   },
-
   {
     "questionStatement": "Quantos campeões LOL tinha quando lançou",
     "correctAnswer": "40",
     "wrongAnswers": ["45","35","30"]
+  },
+  {
+    "questionStatement": "Quais sao os animais que ficam em Howling Abyss",
+    "correctAnswer": "Poros",
+    "wrongAnswers": ["Cavalos","Cachorros","Gatos"]
   }
 ]

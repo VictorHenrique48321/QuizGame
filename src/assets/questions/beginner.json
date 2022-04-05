@@ -51,10 +51,14 @@
     "correctAnswer": "Malcolm ",
     "wrongAnswers": ["Malcon","Melcoln","Maicon"]
   },
-
   {
     "questionStatement": "Qual o nome da ultimate de Leona",
     "correctAnswer": "Labareda Solar",
     "wrongAnswers": ["Eclipse","Luz Solar","Raio de fogo"]
+  }, 
+  {
+    "questionStatement": "Quando o jogo foi lançado",
+    "correctAnswer": "2009",
+    "wrongAnswers": ["2010","2011","2008"]
   }
 ]

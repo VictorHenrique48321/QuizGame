@@ -18,23 +18,32 @@
   background-color: rgb(30, 38, 62);
 }
 
-.main-congratulations{
-  margin: 1rem 0;
-  font-size: 28px;
-  color: white;
-  height: 33%;
+.main-questionAnswers{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: .2rem .2rem;
+  width: 90%;
+  margin-top: 1rem;
 }
 
-.main-score {
-  margin: 1rem 0;
-  font-size: 24px;
+.main-answered {
   color: white;
-  height: 33%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(41, 104, 168);
+}
+
+.main-answerQuestion{
+  color: white;
+  font-size: 20px;
 }
 
 .main-options {
   display: flex;
+  justify-content: center;
   height: 33%;
+  width: 400px;
 }
 
 .main-nextOrRetry {

@@ -1,3 +1,4 @@
+import "../../assets/css/reset.css"
 import "../../assets/css/main/main.css" 
 import "../../assets/css/main/main-quizCompleto.css" 
 
@@ -17,6 +18,8 @@ const Quiz = () => {
   const questionScore = useRef(0)
   const questionId = useRef(0)
   const nextQuiz = useRef()
+  const guardarResposta = useRef([])
+  const guardarCor = useRef([])
 
   function lerJson(){
     const data = require(`../../assets/questions/${params.difficult}.json`)
@@ -46,24 +49,27 @@ const Quiz = () => {
     if(e.target.innerHTML === questionRightAnswers){
       questionId.current++
       questionScore.current++
-      console.log(questionId.current)
-      if(questionId.current < 10 ){
+      guardarCor.current = [...guardarCor.current, "green"]
+      if(questionId.current < 12 ){
         lerJson()
       }
       setRender(!render)
     } else {
       questionId.current++
-      console.log(questionId.current)
-      if(questionId.current < 11 ){
+      guardarCor.current = [...guardarCor.current, "red"]
+      if(questionId.current < 12 ){
         lerJson()
       }
       setRender(!render)
     }
+    guardarResposta.current = [...guardarResposta.current, questionRightAnswers]
   }
 
   function restartTest(){
     questionId.current = 0
     questionScore.current = 0
+    guardarResposta.current = []
+    guardarCor.current = []
     setRender(!render)
   }
 
@@ -81,18 +87,42 @@ const Quiz = () => {
     }
   }
   useEffect(() => {
-    if(questionId.current < 11){
+    if(questionId.current < 12){
       lerJson()
     }
   })
   
-  if(questionId.current === 11){
+  if(questionId.current === 12){
     return (
       <main>
         <div className="main-quizCompleto">
           <div className="main-scoreLayout">
-            <h1 className="main-congratulations">Você completou o teste</h1>
-            <h2 className="main-score">você acertou {questionScore.current} perguntas</h2>
+            <div className="main-questionAnswers">
+              <p className="main-answered" style={{ backgroundColor: `${guardarCor.current[0]}`}}><p>1</p></p>
+              <p className="main-answerQuestion">{guardarResposta.current[0]}</p>
+              <p className="main-answered" style={{ backgroundColor: `${guardarCor.current[1]}`}}><p>2</p></p>
+              <p className="main-answerQuestion">{guardarResposta.current[1]}</p>
+              <p className="main-answered" style={{ backgroundColor: `${guardarCor.current[2]}`}}><p>3</p></p>
+              <p className="main-answerQuestion">{guardarResposta.current[2]}</p>
+              <p className="main-answered" style={{ backgroundColor: `${guardarCor.current[3]}`}}><p>4</p></p>
+              <p className="main-answerQuestion">{guardarResposta.current[3]}</p>
+              <p className="main-answered" style={{ backgroundColor: `${guardarCor.current[4]}`}}><p>5</p></p>
+              <p className="main-answerQuestion">{guardarResposta.current[4]}</p>
+              <p className="main-answered" style={{ backgroundColor: `${guardarCor.current[5]}`}}><p>6</p></p>
+              <p className="main-answerQuestion">{guardarResposta.current[5]}</p>
+              <p className="main-answered" style={{ backgroundColor: `${guardarCor.current[6]}`}}><p>7</p></p>
+              <p className="main-answerQuestion">{guardarResposta.current[6]}</p>
+              <p className="main-answered" style={{ backgroundColor: `${guardarCor.current[7]}`}}><p>8</p></p>
+              <p className="main-answerQuestion">{guardarResposta.current[7]}</p>
+              <p className="main-answered" style={{ backgroundColor: `${guardarCor.current[8]}`}}><p>9</p></p>
+              <p className="main-answerQuestion">{guardarResposta.current[8]}</p>
+              <p className="main-answered" style={{ backgroundColor: `${guardarCor.current[9]}`}}><p>10</p></p>
+              <p className="main-answerQuestion">{guardarResposta.current[9]}</p>
+              <p className="main-answered" style={{ backgroundColor: `${guardarCor.current[10]}`}}><p>11</p></p>
+              <p className="main-answerQuestion">{guardarResposta.current[10]}</p>
+              <p className="main-answered" style={{ backgroundColor: `${guardarCor.current[11]}`}}><p>12</p></p>
+              <p className="main-answerQuestion">{guardarResposta.current[11]}</p>
+            </div>
             <div className="main-options">
               <h1 className="main-nextOrRetry" onClick={restartTest}><p>Reiniciar</p></h1>
               <Link to={`/${nextQuiz.current}`}>
@@ -113,15 +143,15 @@ const Quiz = () => {
         <div className="main-container">
           <div className="main-questionLayout">
             <div className="main-question">
-              <h1 className="main-questionNumber">Question {questionId.current + 1}/11</h1>
+              <h1 className="main-questionNumber">Question {questionId.current + 1}/12</h1>
               <p className="main-questionStatement">{questionStatement}</p>
             </div>
-            <ol className="main-answers" ref={answers}>
+            <p className="main-answers" ref={answers}>
               <li className="main-answer" onClick={validateAnswer}></li>
               <li className="main-answer" onClick={validateAnswer}></li>
               <li className="main-answer" onClick={validateAnswer}></li>
               <li className="main-answer" onClick={validateAnswer}></li>
-            </ol>
+            </p>
           </div>
         </div>
         {nextTest()}
