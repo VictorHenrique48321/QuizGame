@@ -1,0 +1,135 @@
+@media (max-width: 575.98px) {
+
+  .main-questionLayout{
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .main-question {
+    margin-top: 2rem;
+  }
+
+  .main-questionNumber {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .main-questionStatement {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .main-answer {
+    font-size: 2rem;
+    border: 5px solid rgb(41, 104, 168);
+    width: 250px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main-questionLayout{
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .main-questionNumber {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .main-questionStatement {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .main-answer {
+    font-size: 2rem;
+    border: 5px solid rgb(41, 104, 168);
+    width: 250px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .main-questionLayout{
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .main-questionNumber {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .main-questionStatement {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .main-answer {
+    font-size: 2rem;
+    border: 5px solid rgb(41, 104, 168);
+    width: 250px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .main-questionLayout{
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .main-questionNumber {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .main-questionStatement {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .main-answer {
+    font-size: 2rem;
+    border: 5px solid rgb(41, 104, 168);
+    width: 250px;
+  }
+}
+
+@media (min-width: 1200px) {  
+
+  .main-questionLayout{
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .main-questionNumber {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .main-questionStatement {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .main-answer {
+    font-size: 2rem;
+    border: 5px solid rgb(41, 104, 168);
+    width: 250px;
+  }
+}

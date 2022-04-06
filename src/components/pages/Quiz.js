@@ -1,6 +1,8 @@
 import "../../assets/css/reset.css"
 import "../../assets/css/main/main.css" 
+import "../../assets/css/main/mainMediaQuery.css"
 import "../../assets/css/main/main-quizCompleto.css" 
+import "../../assets/css/main/main-quizCompletoMediaQuery.css"
 
 import { useParams, Link } from "react-router-dom"
 import { useEffect, useRef, useState } from "react"

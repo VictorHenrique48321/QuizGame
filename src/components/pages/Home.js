@@ -1,5 +1,6 @@
 import "../../assets/css/reset.css"
 import "../../assets/css/header.css"
+import "../../assets/css/headerMediaQuery.css"
 import { Link } from "react-router-dom"
 
 const Home = () => {

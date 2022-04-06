@@ -1,0 +1,38 @@
+@media screen and (min-width: 200px) {
+  header {
+    background-color: rgb(1, 74, 129);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .header-difficult {
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .header-difficultSelected {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 500px) {
+
+  .header-difficult {
+    border-radius: 50px;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
+
+  .header-difficult {
+    width: 60%;
+    height: 80%;
+  }
+
+  .header-difficultSelected {
+    width: 250px;
+  }
+}
